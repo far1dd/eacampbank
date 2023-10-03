@@ -1,0 +1,298 @@
+.main {
+    margin: 50px;
+    width: 93%;
+    height: 670px;
+    display: flex;
+}
+
+.main-left {
+    border-radius: 45px;
+    background: #B0D8DA;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+}
+
+.main-right {
+    border-radius: 45px;
+    background: #FFF;
+    width: 855px;
+    height: 670px;
+    margin-left: 485px;
+}
+
+img {
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    left: 190px;
+    top: 290px;
+}
+
+.left-title-1 {
+    position: absolute;
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: 130px;
+    left: 80px;
+}
+
+.left-title-2 {
+    position: absolute;
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 190px;
+    left: 80px;
+}
+
+.vector {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 100px;
+    left: 1260px;
+}
+
+.rigth-language {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Plus Jakarta Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 97px;
+    left: 1160px;
+}
+
+.rigth-title-1 {
+    position: absolute;
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: 160px;
+    left: 600px;
+}
+
+.rigth-title-2 {
+    position: absolute;
+    color: #ABABAB;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    top: 210px;
+    left: 600px;
+}
+
+.asa {
+    color: #ABABAB;
+    font-family: Plus Jakarta Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 65px;
+}
+
+.aya {
+    width: 296px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #D9D9D9;
+    margin-left: 65px;
+}
+
+.input1-title {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 65px;
+}
+
+.input2-title {
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 65px;
+}
+
+.input3-title {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 65px;
+}
+
+.input4-title {
+    position: absolute;
+    margin-top: 390px;
+    margin-left: 65px;
+}
+
+.input5-title {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 65px;
+}
+
+.input1 {
+    position: absolute;
+    top: 270px;
+}
+
+.input2 {
+    position: absolute;
+    top: 335px;
+}
+
+.input3 {
+    position: absolute;
+    top: 400px;
+}
+
+.input4 {
+    position: absolute;
+    top: 460px;
+}
+
+.input5 {
+    position: absolute;
+    top: 520px;
+}
+
+.knobka {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #D9D9D9;
+    position: absolute;
+    top: 575px;
+    left: 600px;
+}
+
+.confirm-title {
+    color: #ABABAB;
+    font-family: Plus Jakarta Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 575px;
+    left: 630px;
+}
+
+.qeydiyyat {
+    border-radius: 25px;
+    background: #5DC6C9;
+    width: 296px;
+    height: 50px;
+    flex-shrink: 0;
+    margin-top: 560px;
+    margin-left: 60px;
+    border: 0px;
+}
+
+.qeydiyyat p {
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ad-error-1 {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    color: red;
+    top: 265px;
+    right: 250px;
+}
+
+.soyad-error-1 {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    color: red;
+    top: 330px;
+    right: 250px;
+}
+
+.email-error-1 {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    color: red;
+    top: 400px;
+    right: 250px;
+}
+
+.password-error-1 {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    color: red;
+    top: 460px;
+    right: 250px;
+}
+
+.password-error-2 {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    color: red;
+    top: 520px;
+    right: 250px;
+}
+
+.qeydiyyat-raziliq {
+    position: absolute;
+    top: 575px;
+    left: 600px;
+
+}
+
+.hesabinizvar {
+    position: absolute;
+    top: 580px;
+    left: 1105px;
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hesabinizvarbutton {
+    position: absolute;
+    top: 620px;
+    left: 1100px;
+    border-radius: 25px;
+    background: #5DC6C9;
+    width: 246px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 0px;
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
